@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif; 
+  background-color: #F9E79F; 
+  color: #00C78C; 
+  text-align: center; 
+}
+
+calculator {
+  width: 250px;
+  margin: 0 auto; 
+  border: 1px solid #267DB3; 
+  padding: 15px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+  background-position: center bottom; 
+}
+
+.fila-botones {
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 300px;
+}
+
+input[type="button"] {
+  width: 120px; 
+  height: 40px;
+  font-size: 16px; 
+  margin-bottom: 5px; 
+  background-color: #00C78C; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+input[type="text"] {
+  width: 60%; 
+  height: 35px; 
+  font-size: 20px;
+  text-align: right; 
+  margin-bottom: 10px; 
+  background-color: #ffffff; 
+  border: 1px solid #267DB3; 
+  border-radius: 5px; 
+  padding: 5px; 
+}
